@@ -102,8 +102,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/marin-m/pbtk.git",
-                    "tag": "1.1.0",
-                    "commit": "daa552815958003abc241d4ee1c09e36e55637b8"
+                    "commit": "628c066159baf6fd59ab7b9255c33ae9ef8cdc1d"
                 }
             ]
         }
