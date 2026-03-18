@@ -42,8 +42,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/13/69/33ddede1939fdd074bce5434295f38fae7136463422fe4fd3e0e89b98062/charset_normalizer-3.4.4.tar.gz",
-                    "sha256": "94537985111c35f28720e43603b8e7b43a6ecfb2ce1d3058bbe955b73404e21a"
+                    "url": "https://files.pythonhosted.org/packages/7b/60/e3bec1881450851b087e301bedc3daa9377a4d45f1c26aa90b0b235e38aa/charset_normalizer-3.4.6.tar.gz",
+                    "sha256": "1ae6b62897110aa7c79ea2f5dd38d1abca6db663687c0b1ad9aed6f6bae3d9d6"
                 },
                 {
                     "type": "file",
@@ -52,8 +52,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/16/df/90e09253b321a37e315b08f4bcd7dcc68a5f9a45f58e909ba0cf5847ddbc/pbtk-1.0.8-py3-none-any.whl",
-                    "sha256": "8164435e84cf864d0b693ef8435f4e63b9c2a27755168b1fc84a62564f85e4ba"
+                    "url": "https://files.pythonhosted.org/packages/9d/0a/a0f0d346c6757ec779ab297c35e2396f683d3658fd98a7ad6018e351e51b/pbtk-1.1.0-py3-none-any.whl",
+                    "sha256": "6ed346a36dd37c66fda68453f7347dd66affbfcd0053cb7136da66f8c893aa4a"
                 },
                 {
                     "type": "file",
@@ -69,6 +69,11 @@
                     "type": "file",
                     "url": "https://files.pythonhosted.org/packages/39/08/aaaad47bc4e9dc8c725e68f9d04865dbcb2052843ff09c97b08904852d84/urllib3-2.6.3-py3-none-any.whl",
                     "sha256": "bf272323e553dfb2e87d9bfd225ca7b0f467b919d7bbd355436d3fd37cb0acd4"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/67/5d/b360f74274378795f725f50f04bcfa7ec0a34ea70266e5fcf30cc8b8170b/system_pyside6-0.1.1-py3-none-any.whl",
+                    "sha256": "d1855bc9721dce97ee233715f34a5b2b45d9581d9d56f40c20e28ddcaf57cd82"
                 },
                 {
                     "type": "file",
@@ -90,14 +95,14 @@
             "build-commands": [
                 "install -Dm644 ./packaging/assets/re.fossplant.pbtk.svg -t /app/share/icons/hicolor/scalable/apps/",
                 "install -Dm644 ./packaging/assets/re.fossplant.pbtk.metainfo.xml -t /app/share/metainfo/",
-                "install -Dm644 ./packaging/assets/re.fossplant.pbtk.desktop -t /app/share/applications/"
+                "install -Dm644 ./packaging/assets/re.fossplant.pbtk.desktop -t /app/share/applications/",
+                "rm -rf *.g* LICENSE *.md *.py *.toml *.yaml *.lock src packaging"
             ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/marin-m/pbtk.git",
-                    "tag": "1.0.8",
-                    "commit": "09184d89ed760c816e1f7ee26099253814dc555c"
+                    "commit": "628c066159baf6fd59ab7b9255c33ae9ef8cdc1d"
                 }
             ]
         }
