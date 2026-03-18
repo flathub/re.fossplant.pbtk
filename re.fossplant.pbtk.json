@@ -52,8 +52,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/16/df/90e09253b321a37e315b08f4bcd7dcc68a5f9a45f58e909ba0cf5847ddbc/pbtk-1.0.8-py3-none-any.whl",
-                    "sha256": "8164435e84cf864d0b693ef8435f4e63b9c2a27755168b1fc84a62564f85e4ba"
+                    "url": "https://files.pythonhosted.org/packages/9d/0a/a0f0d346c6757ec779ab297c35e2396f683d3658fd98a7ad6018e351e51b/pbtk-1.1.0-py3-none-any.whl",
+                    "sha256": "6ed346a36dd37c66fda68453f7347dd66affbfcd0053cb7136da66f8c893aa4a"
                 },
                 {
                     "type": "file",
@@ -90,14 +90,15 @@
             "build-commands": [
                 "install -Dm644 ./packaging/assets/re.fossplant.pbtk.svg -t /app/share/icons/hicolor/scalable/apps/",
                 "install -Dm644 ./packaging/assets/re.fossplant.pbtk.metainfo.xml -t /app/share/metainfo/",
-                "install -Dm644 ./packaging/assets/re.fossplant.pbtk.desktop -t /app/share/applications/"
+                "install -Dm644 ./packaging/assets/re.fossplant.pbtk.desktop -t /app/share/applications/",
+                "rm -rf *.g* LICENSE *.md *.py *.toml *.yaml *.lock src packaging"
             ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/marin-m/pbtk.git",
-                    "tag": "1.0.8",
-                    "commit": "09184d89ed760c816e1f7ee26099253814dc555c"
+                    "tag": "1.1.0",
+                    "commit": "daa552815958003abc241d4ee1c09e36e55637b8"
                 }
             ]
         }
