@@ -19,6 +19,7 @@
         "--env=QTWEBENGINEPROCESS_PATH=/app/bin/QtWebEngineProcess",
         "--env=PATH=/app/jre/bin:/app/bin:/usr/bin",
         "--env=JAVA_HOME=/app/jre",
+        "--talk-name=org.freedesktop.Flatpak",
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
@@ -52,8 +53,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/9d/0a/a0f0d346c6757ec779ab297c35e2396f683d3658fd98a7ad6018e351e51b/pbtk-1.1.0-py3-none-any.whl",
-                    "sha256": "6ed346a36dd37c66fda68453f7347dd66affbfcd0053cb7136da66f8c893aa4a"
+                    "url": "https://files.pythonhosted.org/packages/f5/04/957dee744445616afe59fb6d8c13654994a651e1ec0c69d2e32f71e69f3f/pbtk-1.1.1-py3-none-any.whl",
+                    "sha256": "19fcd68eb2ad4770a4d2464adbb8b4c1ce286e364f71993c1e1d3d574b324515"
                 },
                 {
                     "type": "file",
@@ -102,7 +103,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/marin-m/pbtk.git",
-                    "commit": "628c066159baf6fd59ab7b9255c33ae9ef8cdc1d"
+                    "commit": "403e565749ca4f1a6101b95b6d18c2e5a576b16f"
                 }
             ]
         }
