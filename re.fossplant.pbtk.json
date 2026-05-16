@@ -52,8 +52,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/34/3c/2c301441f85c04f789c0fc5ee494147d45ff5e7e297609e344c2c395c9ad/pbtk-1.1.1.post1-py3-none-any.whl",
-                    "sha256": "7fc0695bb6fae41c19a69d3f62cbdc61d615695b61f3d3b98a564fe79c57ebf1"
+                    "url": "https://files.pythonhosted.org/packages/ec/f8/211e6aa923bc1e122c541afbb389c03948001c3411939ae1c536c91d14cc/pbtk-1.1.2-py3-none-any.whl",
+                    "sha256": "8f897b99e7e6f8d28f380ad8a3f71c4160553cd0cf8b3f630abaafd350945c43"
                 },
                 {
                     "type": "file",
@@ -102,7 +102,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/marin-m/pbtk.git",
-                    "commit": "6920d754c7abcba0a774c570dcce9026e4ae22a5"
+                    "commit": "ebcb2c45ab3f5b8bd69b21ad8c30c53e2414eb07"
                 }
             ]
         }
