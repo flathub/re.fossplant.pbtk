@@ -20,8 +20,8 @@
         "--env=PATH=/app/jre/bin:/app/bin:/usr/bin",
         "--env=JAVA_HOME=/app/jre",
         "--share=ipc",
-        "--socket=fallback-x11",
         "--socket=wayland",
+        "--socket=fallback-x11",
         "--device=dri"
     ],
     "cleanup-commands": [
