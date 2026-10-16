@@ -34,8 +34,8 @@ sources:
       name: pbtk
       packagetype: bdist_wheel
   - type: file
-    url: https://files.pythonhosted.org/packages/c4/72/02445137af02769918a93807b2b7890047c32bfb9f90371cbc12688819eb/protobuf-6.33.6-py3-none-any.whl
-    sha256: 77179e006c476e69bf8e8ce866640091ec42e1beb80b213c3900006ecfba6901
+    url: https://files.pythonhosted.org/packages/e4/04/d52c7016b04b6c5108f26691f9d33ec82a9b65d041f1a9c771137693d618/protobuf-7.36.2-py3-none-any.whl
+    sha256: bdb3a345d48db958e6ce1f18e508beb0cc981d64f24088427549c866cd039f1e
     x-checker-data:
       type: pypi
       name: protobuf
