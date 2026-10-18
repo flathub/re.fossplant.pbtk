@@ -6,8 +6,8 @@ build-commands:
     --prefix=${FLATPAK_DEST} "pbtk" --no-build-isolation
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl
-    sha256: 62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775
+    url: https://files.pythonhosted.org/packages/08/ba/95dd616042484f7c83a06974388b37b837732740ee70bc5dc715b5fcd55a/certifi-2026.10.18-py3-none-any.whl
+    sha256: 73191c47aaa79da394e8fee2dbc2ec827432cab56311122c9e47abf79e390f62
     x-checker-data:
       type: pypi
       name: certifi
@@ -34,8 +34,8 @@ sources:
       name: pbtk
       packagetype: bdist_wheel
   - type: file
-    url: https://files.pythonhosted.org/packages/c4/72/02445137af02769918a93807b2b7890047c32bfb9f90371cbc12688819eb/protobuf-6.33.6-py3-none-any.whl
-    sha256: 77179e006c476e69bf8e8ce866640091ec42e1beb80b213c3900006ecfba6901
+    url: https://files.pythonhosted.org/packages/e4/04/d52c7016b04b6c5108f26691f9d33ec82a9b65d041f1a9c771137693d618/protobuf-7.36.2-py3-none-any.whl
+    sha256: bdb3a345d48db958e6ce1f18e508beb0cc981d64f24088427549c866cd039f1e
     x-checker-data:
       type: pypi
       name: protobuf
