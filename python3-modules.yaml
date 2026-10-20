@@ -36,10 +36,12 @@ sources:
   - type: file
     url: https://files.pythonhosted.org/packages/c4/72/02445137af02769918a93807b2b7890047c32bfb9f90371cbc12688819eb/protobuf-6.33.6-py3-none-any.whl
     sha256: 77179e006c476e69bf8e8ce866640091ec42e1beb80b213c3900006ecfba6901
-    x-checker-data:
-      type: pypi
-      name: protobuf
-      packagetype: bdist_wheel
+    # The Protobuf dependency is frozen, see:
+    # https://github.com/marin-m/pbtk/commit/e6d449fbaac83c0d26cbb287f3b3f483ee1b05e9
+    # x-checker-data:
+    #   type: pypi
+    #   name: protobuf
+    #   packagetype: bdist_wheel
   - type: file
     url: https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl
     sha256: 2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0
