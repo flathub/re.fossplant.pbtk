@@ -1,10 +1,10 @@
-# `re.fossplant.pbtk`
+# [pbtk](https://flathub.org/apps/details/re.fossplant.pbtk)
 
 This repository contains a Flatpak template for building the https://github.com/marin-m/pbtk GUI
 
 ## Utilities
 
-These command will generate a `python3-modules.json` file that can serve as a template for the dependencies included from `re.fossplant.pbtk.yaml`:
+These command will generate a `python3-modules.yaml` file that can serve as a template for the dependencies included from `re.fossplant.pbtk.yaml`:
 
 ```bash
 cd
