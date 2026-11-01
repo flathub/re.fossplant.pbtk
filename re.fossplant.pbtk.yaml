@@ -49,8 +49,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/marin-m/pbtk
-        tag: 1.1.3.1
-        commit: 7c5fa2ca4cee9e8a2862c6e3332e7b8a850bb8e8
+        tag: 1.1.4
+        commit: b6422f541d17dff84d68a0fc1ef24a7cec592b84
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
