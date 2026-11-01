@@ -50,7 +50,7 @@ modules:
       - type: git
         url: https://github.com/marin-m/pbtk
         tag: 1.1.4
-        commit: 30ac46408056d37ec2b086d99b98d73949e10e36
+        commit: b6422f541d17dff84d68a0fc1ef24a7cec592b84
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
