@@ -1,32 +1,22 @@
 app-id: re.fossplant.pbtk
-runtime: org.kde.Platform
-runtime-version: "6.10"
 
-sdk: org.kde.Sdk
+runtime: org.gnome.Platform
+runtime-version: "51"
+
+sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk8
-
-base: io.qt.PySide.BaseApp
-base-version: "6.10"
-
-build-options:
-  env:
-    - BASEAPP_DISABLE_NUMPY=1
 
 command: pbtk
 
 finish-args:
   - --share=network
-  - --env=QTWEBENGINEPROCESS_PATH=/app/bin/QtWebEngineProcess
   - --env=PATH=/app/jre/bin:/app/bin:/usr/bin
   - --env=JAVA_HOME=/app/jre
   - --share=ipc
-  - --socket=wayland
   - --socket=fallback-x11
+  - --socket=wayland
   - --device=dri
-
-cleanup-commands:
-  - /app/cleanup-BaseApp.sh
 
 modules:
   - python3-modules.yaml
@@ -39,18 +29,15 @@ modules:
   - name: pbtk
     buildsystem: simple
     build-commands:
-      - install -Dm644 ./packaging/assets/re.fossplant.pbtk.svg -t /app/share/icons/hicolor/scalable/apps/
-      - install -Dm644 ./packaging/assets/re.fossplant.pbtk.metainfo.xml -t /app/share/metainfo/
-      - install -Dm644 ./packaging/assets/re.fossplant.pbtk.desktop -t /app/share/applications/
+      - install -Dm644 src/pbtk/ui/assets/re.fossplant.pbtk.svg -t /app/share/icons/hicolor/scalable/apps/
+      - install -Dm644 src/pbtk/ui/assets/re.fossplant.pbtk.metainfo.xml -t /app/share/metainfo/
+      - install -Dm644 src/pbtk/ui/assets/re.fossplant.pbtk.desktop -t /app/share/applications/
       - rm -rf *.g* LICENSE *.md *.py *.toml *.yaml *.lock src packaging
-      - find /app -iname '*pyside*' | grep -F '6.'
-      - find /app -iname '*qt*' | grep -F '6.'
-      - python3 -c 'from PySide6 import QtCore; print(QtCore.qVersion())'
     sources:
       - type: git
         url: https://github.com/marin-m/pbtk
-        tag: 1.1.4
-        commit: b6422f541d17dff84d68a0fc1ef24a7cec592b84
+        tag: 2.0.0
+        commit: 7bc64ba789822e706903dd802d9599ddbd508b9a
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
