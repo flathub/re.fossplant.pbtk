@@ -32,7 +32,7 @@ modules:
       - install -Dm644 src/pbtk/ui/assets/re.fossplant.pbtk.svg -t /app/share/icons/hicolor/scalable/apps/
       - install -Dm644 src/pbtk/ui/assets/re.fossplant.pbtk.metainfo.xml -t /app/share/metainfo/
       - install -Dm644 src/pbtk/ui/assets/re.fossplant.pbtk.desktop -t /app/share/applications/
-      - rm -rf *.g* LICENSE *.md *.py *.toml *.yaml *.lock src packaging
+      - rm -rf *.g* *.md *.py *.toml *.yaml *.lock src packaging
     sources:
       - type: git
         url: https://github.com/marin-m/pbtk
