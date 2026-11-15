@@ -27,8 +27,8 @@ sources:
       name: idna
       packagetype: bdist_wheel
   - type: file
-    url: https://files.pythonhosted.org/packages/35/69/8177ac6661f948651affb91bbf8fca0196c04b124f7ec4a9c7d40c9200c4/pbtk-1.1.5-py3-none-any.whl
-    sha256: c0d129781d455ecebe6a625bce9e7f48b8256a84d6ec95e6218964f3adf81494
+    url: https://files.pythonhosted.org/packages/97/be/ccbc0673d76f1462385b731a83dbeaf4d8b713baded9807d22548be722b6/pbtk-2.0.0-py3-none-any.whl
+    sha256: 1128d06c79011b4c05e45110614bca81b3d1b5f64bb94b2ca4c8d9873b526640
     x-checker-data:
       type: pypi
       name: pbtk
