@@ -49,9 +49,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/marin-m/pbtk
-        tag: 1.1.5
-        commit: 23d78253f5d88f1a6a42605fe2a6d0ce65b24cc6
-        # ⚠️ Updates temporarily suspended - version 2.x
+        commit: 3b3414e141bdeed3d51eac3286b56c8c977c9b4d
+        # ⚠️ Temporary pinned to 1.x - version 2.x
         # needs to be reworked for sandbox support
         # x-checker-data:
         #   type: git
